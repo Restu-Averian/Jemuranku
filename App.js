@@ -1,3 +1,4 @@
+import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import AddClothesline from "./src/screens/AddClothesline";
@@ -5,7 +6,6 @@ import Home from "./src/screens/Home";
 
 export default function App() {
   const Stack = createStackNavigator();
-
   return (
     // <View style={styles.container}>
     <NavigationContainer>
